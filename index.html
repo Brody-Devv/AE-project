@@ -1,8 +1,18 @@
 <html>
 <head>
-    <title>KOALAS</title>
+    <title>History Of Coding</title>
 </head> 
-<body>
+<body onload="activateRacism">
+    <button onclick="activateRacism()">Are you racist? Click if yes</button>
+    <p>Times you tried to be racist: <span id="racism"></span></p>
+    <script>
+        var racism = parseInt(localStorage.getItem('racism')) || 0;
+        function activateRacism() {
+            racism += 1
+            document.getElementById("racism").innerHTML = racism;
+        }
+
+    </script>
 
 </body>    
 </html>
