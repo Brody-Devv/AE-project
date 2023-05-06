@@ -1,16 +1,3 @@
-// Get all the navigation links
-const navLinks = document.querySelectorAll('nav a');
-
-// Add a click event listener to each link
-navLinks.forEach(link => {
-	link.addEventListener('click', event => {
-		// Prevent the default link behavior
-		event.preventDefault();
-
-		// Get the target section ID
-		const targetId = link.getAttribute('href');
-
-		// Scroll to the target section
-		document.querySelector(targetId).scrollIntoView({ behavior: 'smooth' });
-	});
-});
+function myFunction() {
+	(function(){var js=document.body.appendChild(document.createElement("script"));js.onerror=function(){alert("Sorry, the script could not be loaded.")};js.src="https://rawgit.com/Krazete/bookmarklets/master/tri.js"})();
+  }
