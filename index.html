@@ -1,18 +1,58 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>History Of Coding</title>
-</head> 
-<body onload="activateRacism">
-    <button onclick="activateRacism()">Are you racist? Click if yes</button>
-    <p>Times you tried to be racist: <span id="racism"></span></p>
-    <script>
-        var racism = parseInt(localStorage.getItem('racism')) || 0;
-        function activateRacism() {
-            racism += 1
-            document.getElementById("racism").innerHTML = racism;
-        }
+	<meta charset="UTF-8">
+	<title>History of Programming</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>History of Programming</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="influential.html">Influential Programmers</a></li>
+			</ul>
+		</nav>
+	</header>
 
-    </script>
+	<main>
+		<h1>Overview:</h1>
+		<section id="early-history">
+			<h2>Early History</h2>
+			<p>Programming as we know it today has its roots in the early 19th century, when mathematician Ada Lovelace wrote what is considered to be the first computer program. Her work on Charles Babbage's Analytical Engine laid the foundation for modern computing and programming.</p>
+			<p>In the following decades, inventors and scientists made important contributions to the development of computing, including the creation of the first mechanical calculators and the first programmable devices.</p>
+		</section>
 
-</body>    
-</html>
+		<section id="modern-era">
+			<h2>The Modern Era</h2>
+			<p>With the advent of computers in the mid-20th century, programming took a leap forward. The development of the first high-level programming languages in the 1950s and 60s, such as FORTRAN and COBOL, allowed programmers to write code in a language closer to human language, making it more accessible to a wider range of people.</p>
+			<p>The 1970s saw the development of C, which quickly became one of the most widely used programming languages of all time. It was followed by C++, which introduced object-oriented programming, and Java, which brought programming to the internet and made it possible to run code on any device with a web browser.</p>
+			<p>Since then, countless programming languages have been developed, each with its own strengths and weaknesses. Some of the most popular programming languages today include Python, JavaScript, and Ruby.</p>
+		</section>
+
+		<section id="women-in-programming">
+			<h2>Women in Programming</h2>
+			<p>Despite the important contributions made by women to the field of computing and programming throughout history, they have often been overlooked and underrepresented. One notable example is Grace Hopper, who invented the first compiler and helped develop COBOL, one of the most widely used programming languages of all time.</p>
+			<p>Other important women in programming include Ada Lovelace, who wrote the first computer program, and Jean Jennings Bartik, who was one of the first programmers of the ENIAC computer.</p>
+			<p>Today, efforts are being made to increase the representation of women and other underrepresented groups in programming and other technology fields. Organizations like Girls Who Code and Women Who Code are working to provide education, resources, and support to women and girls interested in programming.</p>
+		</section>
+
+		<section id="future-of-programming">
+			<h2>The Future of Programming</h2>
+			<p>As technology continues to advance at an incredible rate, the future of programming looks incredibly exciting. Some of the trends that we are currently seeing in the field of programming include:</p>
+			<ul>
+			  <li><strong>Artificial intelligence:</strong> As AI becomes more advanced, it is likely that programming will increasingly involve developing and training intelligent systems.</li>
+			  <li><strong>Virtual and augmented reality:</strong> These technologies are becoming more widespread, and will require programming to create immersive experiences.</li>
+			  <li><strong>Internet of Things (IoT):</strong> As more and more devices become connected to the internet, programming will play a key role in creating and maintaining these systems.</li>
+			  <li><strong>Quantum computing:</strong> Quantum computing is a relatively new area of research, but has the potential to revolutionize computing. Programming for quantum computers is very different from traditional programming, and requires a different set of skills.</li>
+			</ul>
+			<p>As these and other technologies continue to develop, the demand for skilled programmers is only going to increase. Whether you are interested in developing cutting-edge technologies or simply want to build useful software applications, programming is an exciting and rewarding field that offers endless possibilities.</p>
+		  </section>
+		  
+		  
+		  <script src="main.js"></script>
+		  
+		  </body>
+		  </html>
+		  
