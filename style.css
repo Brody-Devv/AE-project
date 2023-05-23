@@ -9,7 +9,7 @@ body {
 }
 
 header {
-	background-color: #333;
+	background-color: #241da8;
 	color: #fff;
 	padding: 20px;
 }
@@ -30,7 +30,7 @@ nav li {
 }
 
 nav a {
-	color: #fff;
+	color: #2666c5;
 	text-decoration: none;
 }
 
