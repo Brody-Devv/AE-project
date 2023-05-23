@@ -6,6 +6,7 @@
 
 body {
 	margin: 0;
+	color: #2117ee;
 }
 
 header {
@@ -46,6 +47,10 @@ main {
 
 section {
 	margin-top: 40px;
+}
+
+section li {
+	font-family: 'Consolas', 'Courier New', monospace;
 }
 
 h2 {
