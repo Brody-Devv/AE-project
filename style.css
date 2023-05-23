@@ -17,6 +17,7 @@ header {
 
 p {
 	font-family: 'Consolas', 'Courier New', monospace;
+	color: white;
 }
 
 nav ul {
@@ -31,7 +32,7 @@ nav li {
 }
 
 nav a {
-	color: #2666c5;
+	color: white;
 	text-decoration: none;
 }
 
@@ -56,6 +57,11 @@ section li {
 h2 {
 	margin-top: 0;
 	font-family: 'Consolas', 'Courier New', monospace;
+	color: white;
+}
+
+h1 {
+	color: white;
 }
 
 footer {
